@@ -40,5 +40,8 @@ public class Test_Service {
     public void test(){
         System.out.println("hrllo");
     }
+    public void tet(){
+        System.out.println("hrllo");
+    }
 
 }
