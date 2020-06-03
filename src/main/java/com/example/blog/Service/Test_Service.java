@@ -1,5 +1,6 @@
 package com.example.blog.Service;
 
+import ch.qos.logback.core.net.SyslogOutputStream;
 import com.example.blog.dao.Mapper;
 import com.example.blog.pojo.Blog;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -36,4 +37,8 @@ public class Test_Service {
     public Blog findbyId(int id) {
         return mapper.findbyId(id);
     }
+    public void test(){
+        System.out.println("hrllo");
+    }
+
 }
