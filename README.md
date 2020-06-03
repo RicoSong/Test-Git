@@ -210,7 +210,7 @@ flush privileges
 ​		退出MySQL 执行命令 
 
 ```
-sudo vim /etc/mysql/mysql.conf.d/mysqld.cnf
+sudo vim /etc/mysql/mysql.conf.d/mysqld.cnf 
 //将bind-address = 127.0.0.1注释 让所有的ip都可以访问
 
 ```
